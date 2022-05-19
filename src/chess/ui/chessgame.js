@@ -216,7 +216,7 @@ class ChessGame extends React.Component {
 
 const ChessGameWrapper = (props) => {
 
-    const domainName = 'http://localhost:3000'
+    const domainName = 'https://web-chess.vercel.app'
     const color = React.useContext(ColorContext)
     const { gameid } = useParams()
     const [opponentSocketId, setOpponentSocketId] = React.useState('')
